@@ -1,34 +1,36 @@
-:root{
+:root {
   scroll-behavior: smooth;
 }
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body
-{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    color: #323232;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.home-img{
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: #323232;
+}
+
+.home-img {
   padding-left: 3em;
   padding-right: 3em;
 }
-.text-blue{
+
+.text-blue {
   color: dodgerblue;
 }
-.bg-blue{
+
+.bg-blue {
   background: dodgerblue;
   border-radius: 50%;
 }
-@media screen and (min-width: 768px){
-  .home-img{
-      padding-left: 2em;
-      padding-right: 2em;
+
+@media screen and (min-width: 768px) {
+  .home-img {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
